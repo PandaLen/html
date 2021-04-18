@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/table.css">
+    <link rel="icon" href="img/icon.png" type="image/png" sizes="16x16">
+    <title>Tabulky v HTML</title>
+</head>
+
+<body>
+    <header>
+        <h1>Tabulky v HTML</h1>
+    </header>
+    <div class="topnav">
+        <a class="active" href="table.html">Tabulka</a>
+        <a href="multimedia/multimedia.html">Multimedia</a>
+        <a href="fotogalerie/fotogalerie.html">Fotogalerie</a>
+        <button class="button" onclick="myFunction()">Toggle dark mode</button>
+    </div>
+    <main>
+        <section class="container--fluid">
+            <article class="article--fluid">
+                <h2>Slavná osobnost: Karel Gott</h2>
+                <table>
+                    <caption>Vizitka slavné osobnosti</caption>
+                    <thead>
+                        <tr>
+                            <th>Portrét</th>
+                            <th colspan="2">Základní údaje</th>
+                            <th>Významné činy</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="3"><img src="./img/gott.jpg" alt="Karel Gott" height="300px"></td>
+                            <td colspan="2">Karel Gott</td>
+                            <td rowspan="4"><b>Díla:</b><br>Zdvořilý Woody, Trezor, Kávu si osladím, Kdepak ty ptáčku
+                                hnízdo
+                                máš?, Srdce nehasnou</td>
+                        </tr>
+                        <tr>
+                            <td>14. července 1939 Plzeň</td>
+                            <td>1. října 2019 (ve věku 80 let) Praha</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2" colspan="2"><b>Karel Gott</b> byl nejznámější český zpěvák a mnohonásobný
+                                držitel
+                                ocenění
+                                Zlatý slavík. Do roku 2019 obdržel 42 Zlatých slavíků. Za svou již 60 ti letou hudební
+                                kariéru
+                                se pyšní přívlastky jako Zlatý hlas Prahy, Božský Karel, Mistr nebo Zlatý slavík.</td>
+                        </tr>
+                        <tr>
+                            <td>Karel Gott</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="4"><a href="https://cs.wikipedia.org/wiki/Karel_Gott" target="_blank">Odkaz na
+                                    Wikipedii</a></td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <h2>Značky a atributy tabulky</h2>
+                <dl>
+                    <dt>colspan</dt>
+                    <dd>Atribut zajišťující rozpětí přes několik sloupců.</dd>
+                    <dt>rowspan</dt>
+                    <dd>Atribut zajišťující rozpětí přes několik řádků.</dd>
+                    <dt>table</dt>
+                    <dd>Značka, která vytvoří ohraničení tabulky</dd>
+                    <dt>thead</dt>
+                    <dd>Záhlaví tabulky</dd>
+                    <dt>tbody</dt>
+                    <dd>Tělo tabulky</dd>
+                    <dt>tfoot</dt>
+                    <dd>Zápatí tabulky</dd>
+                    <dt>tr</dt>
+                    <dd>Řada tabulky</dd>
+                    <dt>th</dt>
+                    <dd>Nadpis sloupce tabulky</dd>
+                    <dt>td</dt>
+                    <dd>Buňky tabulky</dd>
+                </dl>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2021 - Lukáš Kanovský</p>
+    </footer>
+    <script src="./darkmode.js"></script>
+</body>
+
+</html>

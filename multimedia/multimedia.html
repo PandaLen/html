@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/multimedia.css">
+    <link rel="icon" href="../img/icon.png" type="image/png" sizes="16x16">
+    <title>Multimedia v HTML</title>
+</head>
+
+<body>
+    <header>
+        <h1>Multimedia v HTML</h1>
+    </header>
+    <div class="topnav">
+        <a href="../table.html">Tabulka</a>
+        <a class="active" href="multimedia.html">Multimedia</a>
+        <a href="../fotogalerie/fotogalerie.html">Fotogalerie</a>
+        <button class="button" onclick="myFunction()">Toggle dark mode</button>
+      </div>
+    <main>
+        <figure>
+            <img src="../img/gott.jpg" alt="Karel Gott">
+            <figcaption>Český zpěvák Karel Gott</figcaption>
+        </figure>
+        <h2>Audio a video v HTML</h2>
+        <figure>
+            <video width="320" height="240" controls>
+                <source src="./media/dumb.mp4" type="video/mp4">
+                Váš prohlížeč bohužel tento formát nepodporuje.
+            </video>
+        </figure>
+        <figure>
+            <audio controls>
+                <source src="./media/hahaha.mp3" type="audio/mpeg">
+                Váš prohlížeč bohužel tento formát nepodporuje.
+            </audio>
+        </figure>
+    </main>
+    <footer>
+        <p>&copy; 2021 - Lukáš Kanovský</p>
+    </footer>
+    <script src="./darkmode.js"></script>
+</body>
+
+</html>
