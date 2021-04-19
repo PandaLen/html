@@ -8,45 +8,52 @@ footer {
 }
 
 div.gallery {
-    margin: 0.8%;
-    float: left;
+    margin: 0.6em;
+    border: 2px solid black;
     width: 23%;
+    float: left;
+    background-color: #333;
+    color: white;
 }
-
-.divgallery img {
+  
+div.gallery:hover {
+    border: 2px solid rgb(15, 15, 15);
+}
+  
+div.gallery img {
     width: 100%;
     height: auto;
+    border: hidden;
 }
-
+  
 div.desc {
     padding: 1em;
-    padding-top: 2.5em;
     text-align: center;
-    margin-top: -1.9em;
-    background-color: #333;
-    color: #f2f2f2;
 }
 
-.clear {
-    clear: both;
+#mainsec{
+    padding-top: 1.5em;
+    width: 80%;
+    margin: auto;
 }
 
-@media only screen and (max-width: 1200px) {
-    main {
+@media only screen and (max-width: 1200px){
+    #mainsec {
         width: 90%;
     }
+
     div.gallery {
-        width: 30%;
+        width: 28%;
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px){
     div.gallery {
-        width: 45%;
+        width: 43%;
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px){
     div.gallery {
         width: 100%;
     }
