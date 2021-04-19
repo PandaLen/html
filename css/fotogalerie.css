@@ -1,0 +1,53 @@
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer {
+    position: fixed;
+}
+
+div.gallery {
+    margin: 0.8%;
+    float: left;
+    width: 23%;
+}
+
+.divgallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 1em;
+    padding-top: 2.5em;
+    text-align: center;
+    margin-top: -1.9em;
+    background-color: #333;
+    color: #f2f2f2;
+}
+
+.clear {
+    clear: both;
+}
+
+@media only screen and (max-width: 1200px) {
+    main {
+        width: 90%;
+    }
+    div.gallery {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    div.gallery {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    div.gallery {
+        width: 100%;
+    }
+}

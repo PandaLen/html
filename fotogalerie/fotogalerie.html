@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./img/dist/css/lightbox.min.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/fotogalerie.css">
     <link rel="icon" href="../img/icon.png" type="image/png" sizes="16x16">
     <title>Fotogalerie v HTML</title>
 </head>
@@ -16,16 +17,75 @@
         <h1>Fotogalerie</h1>
     </header>
     <div class="topnav">
-    <a href="../table.html">Tabulka</a>
-    <a href="../multimedia/multimedia.html">Multimedia</a>
-    <a class="active" href="fotogalerie.html">Fotogalerie</a>
-    <button class="button" onclick="myFunction()">Toggle dark mode</button>
-  </div>
-    <main></main>
+        <a href="../table.html">Tabulka</a>
+        <a href="../multimedia/multimedia.html">Multimedia</a>
+        <a class="active" href="fotogalerie.html">Fotogalerie</a>
+        <button class="button" onclick="myFunction()">Toggle dark mode</button>
+    </div>
+    <main>
+        <div class="gallery">
+            <a data-lightbox="skola" href="hlavni-budova-skoly-velke.jpg">
+                <img src="hlavni-budova-skoly-male.jpg" alt="Pohled na školu z parku" width="600" height="400">
+            </a>
+            <div class="desc">Pohled na školu z parku</div>
+        </div>
+
+        <div class="gallery">
+            <a data-lightbox="skola" href="hlavni-budova-skoly-velke2.jpg">
+                <img src="hlavni-budova-skoly-male2.jpg" alt="Pohled na školu z parku" width="600" height="400">
+            </a>
+            <div class="desc">Pohled na školu z parku</div>
+        </div>
+
+        <div class="gallery">
+            <a data-lightbox="skola" href="hlavni-budova-skoly-velke3.jpg">
+                <img src="hlavni-budova-skoly-male3.jpg" alt="Pohled na školu z pod plotu" width="600" height="400">
+            </a>
+            <div class="desc">Pohled na školu od plotu</div>
+        </div>
+
+        <div class="gallery">
+            <a data-lightbox="skola" href="komplex-skoly-velke.jpg">
+                <img src="komplex-skoly-male.jpg" alt="Pohled na školu ze zadu" width="600" height="400">
+            </a>
+            <div class="desc">Pohled na školu ze zadu</div>
+        </div>
+
+        <div class="gallery">
+            <a data-lightbox="skola" href="komplex-skoly-velke2.jpg">
+                <img src="komplex-skoly-male2.jpg" alt="Pohled na školu ze zadu" width="600" height="400">
+            </a>
+            <div class="desc">Pohled na školu ze zadu</div>
+        </div>
+
+        <div class="gallery">
+            <a data-lightbox="skola" href="komplex-skoly-velke4.jpg">
+                <img src="komplex-skoly-male4.jpg" alt="Pohled na školu z komplexu školy" width="600" height="400">
+            </a>
+            <div class="desc">Pohled na školu z komplexu školy</div>
+        </div>
+
+        <div class="gallery">
+            <a data-lightbox="skola" href="komplex-skoly-velke5.jpg">
+                <img src="komplex-skoly-male5.jpg" alt="Pohled na školu z komplexu školy" width="600" height="400">
+            </a>
+            <div class="desc">Pohled na školu z komplexu školy</div>
+        </div>
+
+        <div class="gallery">
+            <a data-lightbox="skola" href="komplex-skoly-velke6.jpg">
+                <img src="komplex-skoly-male6.jpg" alt="Pohled na školu z komplexu školy" width="600" height="400">
+            </a>
+            <div class="desc">Pohled na školu z komplexu školy</div>
+
+        </div>
+        <div class="clear"></div>
+    </main>
     <footer>
         <p>&copy; 2021 - Lukáš Kanovský</p>
     </footer>
     <script src="../darkmode.js"></script>
+    <script src="./img/dist/js/lightbox-plus-jquery.min.js"></script>
 </body>
 
 </html>

@@ -3,7 +3,7 @@ h2 {
 }
 
 table {
-    width: 50%;
+    width: 75%;
     margin: auto;
 }
 
@@ -26,6 +26,10 @@ td {
 td > img {
     display: block;
     margin: auto;
+}
+
+.obrazek {
+    background-color: black;
 }
 
 dt {
