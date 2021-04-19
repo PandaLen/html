@@ -20,30 +20,43 @@
         <a class="active" href="multimedia.html">Multimedia</a>
         <a href="../fotogalerie/fotogalerie.html">Fotogalerie</a>
         <button class="button" onclick="myFunction()">Toggle dark mode</button>
-      </div>
+    </div>
     <main>
-        <figure>
-            <img src="../img/gott.jpg" alt="Karel Gott">
-            <figcaption>Český zpěvák Karel Gott</figcaption>
-        </figure>
-        <h2>Audio a video v HTML</h2>
-        <figure>
-            <video width="320" height="240" controls>
-                <source src="./media/dumb.mp4" type="video/mp4">
-                Váš prohlížeč bohužel tento formát nepodporuje.
-            </video>
-        </figure>
-        <figure>
-            <audio controls>
-                <source src="./media/hahaha.mp3" type="audio/mpeg">
-                Váš prohlížeč bohužel tento formát nepodporuje.
-            </audio>
-        </figure>
+        <section class="container--fluid">
+            <article class="article--fluid">
+                <figure>
+                    <img src="media/soonie.jpg" alt="Soonie" height="360px">
+                    <figcaption>순이 (Soonie)</figcaption>
+                </figure>
+                <h2>Audio a video v HTML</h2>
+                <figure>
+                    <video width="420" controls>
+                        <source src="media/video.mp4" type="video/mp4">
+                        Váš prohlížeč bohužel tento formát nepodporuje.
+                    </video>
+                    <figcaption></figcaption>
+                </figure>
+                <figure>
+                    <audio controls>
+                        <source src="media/audio.mp3" type="audio/mpeg">
+                        Váš prohlížeč bohužel tento formát nepodporuje.
+                    </audio>
+                    <figcaption><a href="https://www.youtube.com/watch?v=-5q5mZbe3V8" target="_blank">Life Goes On -
+                            BTS</a></figcaption>
+                </figure>
+                <figure>
+                    <iframe width="420" height="236.25" src="https://www.youtube.com/embed/oPo8GZAi8bw"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </figure>
+            </article>
+        </section>
     </main>
     <footer>
         <p>&copy; 2021 - Lukáš Kanovský</p>
     </footer>
-    <script src="./darkmode.js"></script>
+    <script src="../darkmode.js"></script>
 </body>
 
 </html>
